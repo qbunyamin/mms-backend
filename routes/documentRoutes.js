@@ -7,7 +7,6 @@ const multer = require('multer');
 const path = require('path');
 const Remark = require('../models/Remark');
 
-
 // post
 router.post('/', upload.single('file'), async (req, res) => {
     try {
